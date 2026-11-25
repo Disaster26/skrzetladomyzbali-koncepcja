@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow" data-podglad>
+<title>Domy z bali na wynajem nad Jeziorem Rożnowskim - Skrzętla</title>
+<meta name="description" content="Domy z bali na wynajem w Skrzętli (gmina Łososina Dolna) dla grup do 22 osób: 7 pokoi z łazienkami, kominek, podgrzewany basen, sauna i taras z widokiem na Jezioro Rożnowskie.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/lora-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/manrope-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="img/hero-tel-800.webp" media="(max-width:760px)" imagesrcset="img/hero-tel-800.webp 800w, img/hero-tel-1400.webp 1400w" imagesizes="100vw">
+<link rel="preload" as="image" href="img/hero-1920.webp" media="(min-width:761px)" imagesrcset="img/hero-960.webp 960w, img/hero-1440.webp 1440w, img/hero-1920.webp 1920w" imagesizes="100vw">
+<style>
+@font-face{font-family:"Manrope";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/manrope-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:400 800;font-display:swap;src:url(fonts/manrope-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Lora";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/lora-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026}
+@font-face{font-family:"Lora";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/lora-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+:root{
+  --noc:#0B2A4A;      /* granat zimowego nieba ze zdjęć */
+  --noc2:#08203A;
+  --bal:#B5651D;      /* miodowe drewno bali */
+  --bal-ciemny:#9A5316;
+  --snieg:#FFFFFF;
+  --szron:#EEF1F4;
+  --tekst:#1B2430;
+  --szary:#56606C;
+  --linia:#D8DEE5;
+  --w:1240px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;font:400 17px/1.65 "Manrope",Arial,sans-serif;color:var(--tekst);background:var(--snieg);overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{font-family:"Lora",Georgia,serif;font-weight:600;line-height:1.15;margin:0;letter-spacing:-.01em}
+h2{font-size:clamp(30px,3.6vw,46px)}
+h3{font-size:22px}
+p{margin:0}
+.wrap{max-width:var(--w);margin:0 auto;padding:0 24px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:0 26px;border-radius:6px;font:700 16px/1 "Manrope",Arial,sans-serif;text-decoration:none;border:2px solid transparent;cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.btn-bal{background:var(--bal);color:#fff}
+.btn-bal:hover{background:var(--bal-ciemny)}
+.btn-jasny{border-color:rgba(255,255,255,.75);color:#fff}
+.btn-jasny:hover{background:#fff;color:var(--noc)}
+.btn svg{width:18px;height:18px;flex:none}
+
+/* nagłówek */
+.top{position:absolute;inset:0 0 auto 0;z-index:20;color:#fff}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:84px;max-width:1440px}
+.marka{display:flex;align-items:center;gap:12px;text-decoration:none}
+.marka svg{width:46px;height:40px;flex:none}
+.marka b{display:block;font:600 21px/1.05 "Lora",Georgia,serif}
+.marka small{display:block;font-size:13px;opacity:.85;margin-top:3px}
+.menu{display:flex;align-items:center;gap:30px;font-weight:600;font-size:15px}
+.menu a{text-decoration:none;opacity:.92}
+.menu a:hover{opacity:1;text-decoration:underline;text-underline-offset:6px}
+.menu .tel{border:2px solid rgba(255,255,255,.7);padding:10px 16px;border-radius:6px;opacity:1}
+.burger{display:none;background:none;border:0;color:#fff;width:48px;height:48px;padding:12px;cursor:pointer}
+.burger span{display:block;height:2px;background:currentColor;margin:5px 0;border-radius:2px}
+
+/* pierwszy ekran */
+.hero{position:relative;background:var(--noc);color:#fff;overflow:hidden}
+.hero-in{position:relative;max-width:2112px;margin:0 auto;height:min(100svh,66vw);min-height:640px}
+.hero picture img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 45%}
+.hero-in::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(0,28,60,.38) 0,rgba(0,28,60,0) 55%);z-index:1;pointer-events:none}
+.hero-tekst{position:relative;z-index:2;max-width:1440px;margin:0 auto;padding:150px 24px 0}
+.hero h1{font-size:clamp(40px,3.7vw,62px);max-width:17ch;text-shadow:0 2px 24px rgba(0,25,55,.35)}
+.hero p{font-size:clamp(17px,1.35vw,20px);max-width:50ch;margin-top:18px;opacity:.95}
+.hero .akcje{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}
+
+/* wstęp */
+.wstep{padding:110px 0 100px}
+.wstep .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:72px;align-items:center}
+.wstep h2{max-width:18ch}
+.wstep .lead{font-size:19px;color:var(--szary);margin-top:22px;max-width:52ch}
+.fakty{margin:34px 0 0;padding:0;list-style:none;border-top:1px solid var(--linia)}
+.fakty li{display:flex;gap:18px;align-items:baseline;padding:16px 0;border-bottom:1px solid var(--linia)}
+.fakty b{font:600 26px/1 "Lora",Georgia,serif;color:var(--bal-ciemny);min-width:92px}
+.wstep figure{margin:0;position:relative}
+.wstep figure img{width:100%;aspect-ratio:4/3.3;object-fit:cover;border-radius:4px}
+.wstep figcaption{font-size:14px;color:var(--szary);margin-top:10px}
+
+/* znak węgła: przekroje bali jak na logo */
+.wegiel{display:inline-grid;gap:4px;flex:none}
+.wegiel i{width:9px;height:9px;border:2px solid currentColor;border-radius:50%;display:block}
+
+/* wnętrza */
+.wnetrza{background:var(--szron);padding:100px 0 90px}
+.naglowek{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;margin-bottom:38px}
+.naglowek p{color:var(--szary);max-width:50ch;margin-top:14px}
+.strzalki{display:flex;gap:10px;flex:none}
+.strzalki button{width:52px;height:52px;border-radius:50%;border:2px solid var(--noc);background:transparent;color:var(--noc);cursor:pointer;font-size:22px;line-height:1}
+.strzalki button:hover{background:var(--noc);color:#fff}
+.pas{--pad:max(24px,calc((100vw - var(--w))/2 + 24px));display:flex;gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:0 var(--pad) 18px;scroll-padding-inline:var(--pad);scrollbar-width:thin;cursor:grab;-webkit-overflow-scrolling:touch}
+.pas.ciagnie{cursor:grabbing;scroll-snap-type:none}
+.pas figure{flex:0 0 min(78vw,440px);margin:0;scroll-snap-align:start}
+.pas button{display:block;padding:0;border:0;background:none;width:100%;cursor:zoom-in}
+.pas img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:4px;pointer-events:none;user-select:none}
+.pas figcaption{font-weight:600;margin-top:12px}
+.pas figcaption span{display:block;font-weight:400;color:var(--szary);font-size:15px}
+
+/* basen i sauna: sekcja pod dachem */
+.basen{position:relative;background:var(--noc);color:#fff;padding:150px 0 110px;clip-path:polygon(0 70px,50% 0,100% 70px,100% 100%,0 100%);margin-top:-1px}
+.basen .wrap{display:grid;grid-template-columns:1fr 1.25fr;gap:64px;align-items:center}
+.basen p{opacity:.9;margin-top:20px;max-width:46ch}
+.basen ul{list-style:none;padding:0;margin:28px 0 0;display:grid;gap:12px}
+.basen li{display:flex;gap:14px;align-items:center}
+.basen li::before{content:"";width:12px;height:12px;border:2px solid var(--bal);border-radius:50%;flex:none}
+.kolaz{display:grid;grid-template-columns:1.4fr 1fr;grid-template-rows:1fr 1fr;gap:14px;height:540px}
+.kolaz button{padding:0;border:0;background:none;cursor:zoom-in;overflow:hidden;border-radius:4px}
+.kolaz button:first-child{grid-row:span 2}
+.kolaz img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.kolaz button:hover img{transform:scale(1.03)}
+
+/* dla kogo */
+.grupy{padding:110px 0}
+.grupy h2{max-width:20ch}
+.dwa{display:grid;grid-template-columns:1fr 1fr;gap:34px;margin-top:44px}
+.dwa article{background:var(--szron);border-radius:4px;overflow:hidden}
+.dwa img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.dwa .opis{padding:30px 32px 34px}
+.dwa h3{display:flex;align-items:center;gap:14px}
+.dwa h3 .wegiel{color:var(--bal)}
+.dwa p{color:var(--szary);margin-top:12px}
+
+/* okolica */
+.okolica{background:var(--szron);padding:0}
+.okolica .wrap{display:grid;grid-template-columns:1fr 1fr;gap:0;max-width:none;padding:0}
+.okolica figure{margin:0;min-height:560px;position:relative}
+.okolica figure img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.okolica .tekst{padding:96px 72px;align-self:center;max-width:680px}
+.okolica p{color:var(--szary);margin-top:18px}
+.okolica dl{margin:28px 0 0;display:grid;gap:18px}
+.okolica dt{font-weight:700}
+.okolica dd{margin:2px 0 0;color:var(--szary)}
+
+/* rezerwacja */
+.rezerwacja{padding:110px 0}
+.rezerwacja .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px}
+.rezerwacja .lead{color:var(--szary);margin-top:18px}
+.kontakt{margin-top:32px;display:grid;gap:18px}
+.kontakt a.duzy{font:600 34px/1.1 "Lora",Georgia,serif;text-decoration:none;color:var(--noc)}
+.kontakt span{display:block;font-size:14px;color:var(--szary)}
+.mapa{margin-top:30px;border-radius:4px;overflow:hidden;background:var(--szron);aspect-ratio:16/10}
+.mapa iframe{width:100%;height:100%;border:0;display:block}
+form{background:var(--szron);border-radius:4px;padding:38px}
+form h3{margin-bottom:22px}
+.pola{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.pola .cale{grid-column:1/-1}
+label{display:block;font-size:14px;font-weight:700;margin-bottom:6px}
+input,textarea,select{width:100%;font:inherit;font-size:16px;padding:13px 14px;border:1px solid #C5CDD6;border-radius:4px;background:#fff;color:var(--tekst)}
+input:focus,textarea:focus,select:focus{outline:2px solid var(--bal);border-color:var(--bal)}
+textarea{min-height:120px;resize:vertical}
+form .btn{margin-top:22px;width:100%}
+form small{display:block;color:var(--szary);margin-top:12px;font-size:13px}
+.info-form{display:none;margin-top:14px;font-weight:600;color:var(--noc)}
+
+/* stopka */
+footer{background:var(--noc2);color:#C9D3DE;padding:64px 0 34px;font-size:15px}
+footer .kol{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
+footer .marka{color:#fff}
+footer h4{color:#fff;font-size:15px;margin:0 0 12px}
+footer p{line-height:1.8}
+footer a{text-decoration:none}
+footer a:hover{text-decoration:underline}
+.dol{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;border-top:1px solid rgba(255,255,255,.14);margin-top:44px;padding-top:24px;font-size:14px}
+
+/* powiększenie zdjęć */
+dialog{border:0;padding:0;background:transparent;max-width:96vw;max-height:94vh}
+dialog::backdrop{background:rgba(5,15,28,.9)}
+dialog img{max-width:96vw;max-height:88vh;width:auto;border-radius:4px}
+dialog .zamknij{position:fixed;top:14px;right:14px;width:48px;height:48px;border-radius:50%;border:0;background:#fff;color:var(--noc);font-size:26px;cursor:pointer}
+dialog p{color:#fff;text-align:center;margin-top:10px}
+
+/* telefon */
+@media (max-width:980px){
+  .menu{display:none}
+  .burger{display:block}
+  .menu.otwarte{display:flex;position:fixed;inset:0;background:var(--noc);flex-direction:column;justify-content:center;gap:26px;font-size:22px;z-index:30}
+  .menu.otwarte .zamknij-menu{display:block}
+  .wstep .wrap,.basen .wrap,.rezerwacja .wrap,.dwa,.okolica .wrap{grid-template-columns:1fr}
+  .wstep .wrap{gap:44px}
+  .okolica .tekst{padding:64px 24px;max-width:none}
+  .okolica figure{min-height:0}
+  .okolica figure img{position:static;aspect-ratio:3/2;height:auto}
+  .kolaz{height:auto;grid-template-columns:1fr 1fr;grid-template-rows:auto auto}
+  .kolaz button:first-child{grid-row:auto;grid-column:1/-1}
+  .kolaz img{aspect-ratio:3/2;height:auto}
+  footer .kol{grid-template-columns:1fr 1fr}
+  footer .kol>div:first-child{grid-column:1/-1}
+}
+.zamknij-menu{display:none;position:absolute;top:18px;right:18px;background:none;border:0;color:#fff;font-size:34px;width:48px;height:48px;cursor:pointer}
+@media (max-width:760px){
+  body{font-size:16px}
+  .top .wrap{height:68px;padding:0 16px}
+  .marka svg{width:38px;height:33px}
+  .marka b{font-size:18px}
+  .marka small{font-size:12px}
+  .hero{background:linear-gradient(180deg,#00284f 0%,#014474 38%,#01608b 62%,#01608b 100%)}
+  .hero-in{height:auto;min-height:100svh;display:flex;flex-direction:column}
+  .hero-tekst{padding:96px 18px 0;order:1}
+  .hero h1{font-size:clamp(31px,8.6vw,40px)}
+  .hero p{font-size:16px;margin-top:14px}
+  .hero .akcje{margin-top:26px;gap:10px}
+  .hero .akcje .btn{flex:1 1 100%;min-height:52px}
+  .hero picture{order:2;position:relative;flex:1 1 auto;min-height:190px;margin-top:22px;-webkit-mask-image:linear-gradient(180deg,transparent 0,#000 22%);mask-image:linear-gradient(180deg,transparent 0,#000 22%)}
+  .hero picture img{object-position:50% 100%}
+  .hero-in::after{display:none}
+  .wstep,.grupy,.rezerwacja{padding:72px 0}
+  .wnetrza{padding:72px 0 64px}
+  .basen{padding:110px 0 72px;clip-path:polygon(0 36px,50% 0,100% 36px,100% 100%,0 100%)}
+  .wrap{padding:0 18px}
+  .naglowek{display:block;margin-bottom:26px}
+  .strzalki{display:none}
+  .pas{--pad:18px;gap:12px}
+  .pas figure{flex-basis:82vw}
+  .fakty b{font-size:22px;min-width:76px}
+  .dwa .opis{padding:24px 22px 26px}
+  form{padding:26px 20px}
+  .pola{grid-template-columns:1fr}
+  .kontakt a.duzy{font-size:28px}
+  footer .kol{gap:28px}
+}
+@media (max-height:700px) and (max-width:760px){
+  .hero-tekst{padding-top:84px}
+  .hero h1{font-size:30px}
+  .hero .akcje{margin-top:24px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <!-- chata z bali z logo: skrzyżowane krokwie, przekroje bali na węgłach, drzwi -->
+  <symbol id="chata" viewBox="0 0 120 104">
+    <g fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M8 50 L68 8 M112 50 L52 8"/>
+      <path d="M32 50 H88"/>
+      <circle cx="26" cy="58" r="7"/><circle cx="26" cy="72" r="7"/><circle cx="26" cy="86" r="7"/>
+      <circle cx="94" cy="58" r="7"/><circle cx="94" cy="72" r="7"/><circle cx="94" cy="86" r="7"/>
+      <path d="M33 65 H48 M33 79 H48 M33 93 H48 M72 65 H87 M72 79 H87 M72 93 H87"/>
+      <rect x="48" y="56" width="24" height="42" rx="1"/>
+      <path d="M18 98 H102"/>
+    </g>
+  </symbol>
+</svg>
+
+<header class="top">
+  <div class="wrap">
+    <a class="marka" href="#" aria-label="Skrzętla - domy z bali, strona główna">
+      <svg aria-hidden="true"><use href="#chata"/></svg>
+      <span><b>Skrzętla</b><small>domy z bali na wynajem</small></span>
+    </a>
+    <nav class="menu" id="menu" aria-label="Menu">
+      <button class="zamknij-menu" type="button" aria-label="Zamknij menu">&times;</button>
+      <a href="#domy">Domy</a>
+      <a href="#wnetrza">Wnętrza</a>
+      <a href="#basen">Basen i sauna</a>
+      <a href="#grupy">Dla grup i firm</a>
+      <a href="#okolica">Okolica</a>
+      <a href="#rezerwacja">Rezerwacja</a>
+      <a class="tel" href="tel:+48731931900">731 931 900</a>
+    </nav>
+    <button class="burger" type="button" aria-label="Otwórz menu" aria-controls="menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-in">
+    <picture>
+      <source media="(max-width:760px)" srcset="img/hero-tel-800.webp 800w, img/hero-tel-1400.webp 1400w" sizes="100vw">
+      <img src="img/hero-1920.webp" srcset="img/hero-960.webp 960w, img/hero-1440.webp 1440w, img/hero-1920.webp 1920w" sizes="100vw" width="1920" height="1280" fetchpriority="high" alt="Domy z bali w Skrzętli zimą, z widokiem na góry">
+    </picture>
+    <div class="hero-tekst">
+      <h1>Domy z bali na wynajem nad Jeziorem Rożnowskim</h1>
+      <p>Cały dom tylko dla Waszej grupy: do 22 osób, 7 pokoi z łazienkami, salon z kominkiem, podgrzewany basen i sauna.</p>
+      <div class="akcje">
+        <a class="btn btn-bal" href="#rezerwacja">Zapytaj o wolny termin</a>
+        <a class="btn btn-jasny" href="tel:+48731931900"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg>731 931 900</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wstep" id="domy">
+  <div class="wrap">
+    <div>
+      <h2>Jeden dom, jedna grupa, cała przestrzeń dla Was</h2>
+      <p class="lead">Nasze nowe domy z bali stoją w Skrzętli, w gminie Łososina Dolna, z widokiem na góry i Jezioro Rożnowskie. Wynajmujemy je w całości, więc nie dzielicie kuchni, salonu ani basenu z obcymi.</p>
+      <ul class="fakty">
+        <li><b>22</b><span>osoby w jednym domu, łóżka jedno- i dwuosobowe</span></li>
+        <li><b>7</b><span>pokoi, każdy z własną łazienką i prysznicem</span></li>
+        <li><b>2 doby</b><span>minimalny czas wynajmu, cena zależy od sezonu i świąt</span></li>
+      </ul>
+    </div>
+    <figure>
+      <img src="img/dom-front-1400.webp" srcset="img/dom-front-800.webp 800w, img/dom-front-1400.webp 1400w" sizes="(max-width:980px) 100vw, 580px" width="1400" height="933" loading="lazy" alt="Dom z bali z dużymi przeszkleniami na parterze, w których odbija się drugi dom">
+      <figcaption>Na parterze za przeszkleniami jest basen, piętro wyżej taras z widokiem na jezioro.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="wnetrza" id="wnetrza">
+  <div class="wrap naglowek">
+    <div>
+      <h2>Wnętrza z prawdziwych bali</h2>
+      <p>Salon z kominkiem i telewizorem, stół dla całej grupy, kuchnia z indukcją, piekarnikiem, mikrofalówką, ekspresem do kawy i zmywarką.</p>
+    </div>
+    <div class="strzalki"><button type="button" data-kier="-1" aria-label="Poprzednie zdjęcia">&#8592;</button><button type="button" data-kier="1" aria-label="Następne zdjęcia">&#8594;</button></div>
+  </div>
+  <div class="pas" id="pas">
+    <figure><button type="button" data-duze="img/salon-kominek-1280.webp"><img src="img/salon-kominek-640.webp" width="640" height="427" loading="lazy" alt="Salon z kominkiem i skórzanymi fotelami"></button><figcaption>Salon z kominkiem<span>miejsce na wieczory całej grupy</span></figcaption></figure>
+    <figure><button type="button" data-duze="img/stol-1280.webp"><img src="img/stol-640.webp" width="640" height="427" loading="lazy" alt="Długi drewniany stół nakryty dla dużej grupy"></button><figcaption>Stół dla 22 osób<span>wspólne kolacje bez dostawiania stolików</span></figcaption></figure>
+    <figure><button type="button" data-duze="img/kuchnia-1280.webp"><img src="img/kuchnia-640.webp" width="640" height="427" loading="lazy" alt="Kuchnia z wyspą w domu z bali"></button><figcaption>Kuchnia<span>indukcja, piekarnik, mikrofalówka, ekspres, zmywarka</span></figcaption></figure>
+    <figure><button type="button" data-duze="img/salon-tv-1280.webp"><img src="img/salon-tv-640.webp" width="640" height="427" loading="lazy" alt="Salon z sofami i telewizorem"></button><figcaption>Część wypoczynkowa<span>sofy i telewizor z kanałami satelitarnymi</span></figcaption></figure>
+    <figure><button type="button" data-duze="img/sypialnia-1280.webp"><img src="img/sypialnia-640.webp" width="640" height="427" loading="lazy" alt="Sypialnia z podwójnym łóżkiem"></button><figcaption>Sypialnie<span>7 pokoi, każdy z łazienką</span></figcaption></figure>
+    <figure><button type="button" data-duze="img/pokoj-4os-1280.webp"><img src="img/pokoj-4os-640.webp" width="640" height="427" loading="lazy" alt="Pokój na poddaszu z kilkoma łóżkami"></button><figcaption>Pokoje wieloosobowe<span>łóżka jedno- i dwuosobowe</span></figcaption></figure>
+    <figure><button type="button" data-duze="img/lazienka-1280.webp"><img src="img/lazienka-640.webp" width="640" height="427" loading="lazy" alt="Łazienka z prysznicem przy pokoju"></button><figcaption>Łazienka przy każdym pokoju<span>z prysznicem</span></figcaption></figure>
+    <figure><button type="button" data-duze="img/schody-1280.webp"><img src="img/schody-640.webp" width="640" height="427" loading="lazy" alt="Drewniane schody między ścianami z bali"></button><figcaption>Bale i schody<span>drewno widać w każdym pomieszczeniu</span></figcaption></figure>
+  </div>
+</section>
+
+<section class="basen" id="basen">
+  <div class="wrap">
+    <div>
+      <h2>Basen i sauna pod tym samym dachem</h2>
+      <p>Podgrzewany basen wewnętrzny jest dostępny przez cały rok, także wtedy, gdy za oknem leży śnieg. Po basenie sauna, a wieczorem grill albo kominek.</p>
+      <ul>
+        <li>podgrzewany basen wewnętrzny</li>
+        <li>sauna</li>
+        <li>grill i taras z widokiem na góry</li>
+        <li>sala konferencyjna, parking i WiFi</li>
+      </ul>
+    </div>
+    <div class="kolaz">
+      <button type="button" data-duze="img/basen-noc-1280.webp"><img src="img/basen-noc-1280.webp" width="1280" height="853" loading="lazy" alt="Podświetlony basen wewnętrzny wieczorem"></button>
+      <button type="button" data-duze="img/basen-1280.webp"><img src="img/basen-640.webp" width="640" height="427" loading="lazy" alt="Basen wewnętrzny za dnia z leżakami"></button>
+      <button type="button" data-duze="img/sauna-1280.webp"><img src="img/sauna-640.webp" width="640" height="427" loading="lazy" alt="Drewniana sauna z podświetlanymi ławami"></button>
+    </div>
+  </div>
+</section>
+
+<section class="grupy" id="grupy">
+  <div class="wrap">
+    <h2>Na rodzinny zjazd, wyjazd ze znajomymi i firmową integrację</h2>
+    <div class="dwa">
+      <article>
+        <img src="img/kolacja-1280.webp" srcset="img/kolacja-640.webp 640w, img/kolacja-1280.webp 1280w" sizes="(max-width:980px) 100vw, 600px" width="1280" height="853" loading="lazy" alt="Nakryty stół z kieliszkami i świątecznymi dekoracjami">
+        <div class="opis">
+          <h3><span class="wegiel" aria-hidden="true"><i></i><i></i><i></i></span>Rodzina i przyjaciele</h3>
+          <p>Urodziny, święta, sylwester albo po prostu kilka dni razem. Jest gdzie usiąść przy jednym stole, ugotować dla wszystkich i odpocząć przy kominku, a każdy ma pokój z własną łazienką.</p>
+        </div>
+      </article>
+      <article>
+        <img src="img/jadalnia-1280.webp" srcset="img/jadalnia-640.webp 640w, img/jadalnia-1280.webp 1280w" sizes="(max-width:980px) 100vw, 600px" width="1280" height="853" loading="lazy" alt="Jadalnia i kuchnia w domu z bali">
+        <div class="opis">
+          <h3><span class="wegiel" aria-hidden="true"><i></i><i></i><i></i></span>Firmy</h3>
+          <p>Szkolenie, wyjazd integracyjny albo spotkanie zespołu. Do dyspozycji jest sala konferencyjna, WiFi i parking, a po pracy basen, sauna i grill.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="okolica" id="okolica">
+  <div class="wrap">
+    <figure><img src="img/dom-latarnia-1200.webp" srcset="img/dom-latarnia-800.webp 800w, img/dom-latarnia-1200.webp 1200w" sizes="(max-width:980px) 100vw, 50vw" width="1200" height="800" loading="lazy" alt="Dom z bali w zimowym słońcu, przed nim drewniane ogrodzenie i latarnia"></figure>
+    <div class="tekst">
+      <h2>Góry, las i jezioro za progiem</h2>
+      <p>Skrzętla leży w Małopolsce, na zboczu nad Jeziorem Rożnowskim. Rano kawa na tarasie, w dzień szlak, rower albo narty, wieczorem cisza.</p>
+      <dl>
+        <div><dt>Jezioro Rożnowskie</dt><dd>widać je z tarasu domu</dd></div>
+        <div><dt>Wieża widokowa na Jaworzu</dt><dd>w okolicy, razem z lasem i szlakami</dd></div>
+        <div><dt>Zimą kulig i skutery śnieżne</dt><dd>organizujemy w zależności od warunków</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="rezerwacja" id="rezerwacja">
+  <div class="wrap">
+    <div>
+      <h2>Zapytaj o wolny termin</h2>
+      <p class="lead">Cenę podajemy dla konkretnego terminu, bo zależy od sezonu i świąt. Wynajem minimum na 2 doby. Najszybciej dowiecie się przez telefon.</p>
+      <div class="kontakt">
+        <div><span>Telefon</span><a class="duzy" href="tel:+48731931900">731 931 900</a></div>
+        <div><span>E-mail</span><a href="mailto:skrzetladomyzbali@gmail.com">skrzetladomyzbali@gmail.com</a></div>
+        <div><span>Adres</span>Skrzętla-Rojówka 1, 33-312 Tęgoborze</div>
+      </div>
+      <div class="mapa" id="mapa" data-src="https://www.google.com/maps?q=Skrz%C4%99tla-Roj%C3%B3wka+1,+33-312+T%C4%99gobor%C5%BCe&output=embed"></div>
+    </div>
+    <form id="formularz" novalidate>
+      <h3>Zapytanie o rezerwację</h3>
+      <div class="pola">
+        <div><label for="f-imie">Imię i nazwisko</label><input id="f-imie" autocomplete="name"></div>
+        <div><label for="f-tel">Telefon</label><input id="f-tel" type="tel" autocomplete="tel"></div>
+        <div><label for="f-od">Przyjazd</label><input id="f-od" type="date"></div>
+        <div><label for="f-do">Wyjazd</label><input id="f-do" type="date"></div>
+        <div class="cale"><label for="f-osoby">Liczba osób</label><select id="f-osoby"><option>do 10 osób</option><option>11-16 osób</option><option>17-22 osoby</option><option>więcej niż 22 osoby</option></select></div>
+        <div class="cale"><label for="f-wiad">Wiadomość</label><textarea id="f-wiad" placeholder="Np. wyjazd firmowy, potrzebna sala konferencyjna"></textarea></div>
+      </div>
+      <button class="btn btn-bal" type="submit">Wyślij zapytanie</button>
+      <small>Odpowiadamy telefonicznie albo mailowo z ceną dla wybranego terminu.</small>
+      <p class="info-form" id="info-form">To podgląd strony, formularz zacznie wysyłać zapytania na Państwa skrzynkę po wdrożeniu.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="kol">
+      <div>
+        <a class="marka" href="#"><svg aria-hidden="true"><use href="#chata"/></svg><span><b>Skrzętla</b><small>domy z bali na wynajem</small></span></a>
+        <p style="margin-top:16px">Skrzętla-Rojówka 1<br>33-312 Tęgoborze, gmina Łososina Dolna</p>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <p><a href="tel:+48731931900">731 931 900</a><br><a href="mailto:skrzetladomyzbali@gmail.com">skrzetladomyzbali@gmail.com</a></p>
+      </div>
+      <div>
+        <h4>Obserwuj nas</h4>
+        <p><a href="https://www.facebook.com/profile.php?id=61554468145316" rel="noopener">Facebook</a><br><a href="https://www.instagram.com/skrzetladomyzbali/" rel="noopener">Instagram</a></p>
+      </div>
+    </div>
+    <div class="dol">
+      <span>&copy; <span id="rok">2026</span> Skrzętla - domy z bali na wynajem. Polityka prywatności</span>
+      <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=skrzetladomyzbali.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+    </div>
+  </div>
+</footer>
+
+<dialog id="duze"><button class="zamknij" type="button" aria-label="Zamknij">&times;</button><img alt=""><p></p></dialog>
+
+<script>
+(function(){
+  document.getElementById('rok').textContent=new Date().getFullYear();
+  var menu=document.getElementById('menu');
+  document.querySelector('.burger').onclick=function(){menu.classList.add('otwarte')};
+  menu.addEventListener('click',function(e){if(e.target.closest('a')||e.target.closest('.zamknij-menu'))menu.classList.remove('otwarte')});
+
+  // pas zdjęć: strzałki i przeciąganie myszą
+  var pas=document.getElementById('pas'),ruch=false,start=0,pozycja=0,przesuniecie=0;
+  document.querySelectorAll('.strzalki button').forEach(function(b){b.onclick=function(){pas.scrollBy({left:(+b.dataset.kier)*pas.clientWidth*.7,behavior:'smooth'})}});
+  pas.addEventListener('pointerdown',function(e){if(e.pointerType!=='mouse')return;ruch=true;przesuniecie=0;start=e.clientX;pozycja=pas.scrollLeft;pas.classList.add('ciagnie')});
+  window.addEventListener('pointermove',function(e){if(!ruch)return;przesuniecie=e.clientX-start;pas.scrollLeft=pozycja-przesuniecie});
+  window.addEventListener('pointerup',function(){if(!ruch)return;ruch=false;pas.classList.remove('ciagnie')});
+
+  // powiększanie zdjęć
+  var dlg=document.getElementById('duze'),dImg=dlg.querySelector('img'),dP=dlg.querySelector('p');
+  document.addEventListener('click',function(e){
+    var b=e.target.closest('[data-duze]');if(!b)return;
+    if(Math.abs(przesuniecie)>6){przesuniecie=0;return}
+    var im=b.querySelector('img');dImg.src=b.dataset.duze;dImg.alt=im.alt;dP.textContent=im.alt;dlg.showModal();
+  });
+  dlg.addEventListener('click',function(e){if(e.target!==dImg)dlg.close()});
+
+  // mapa dopiero przy przewinięciu
+  var mapa=document.getElementById('mapa');
+  new IntersectionObserver(function(w,o){if(w[0].isIntersecting){var f=document.createElement('iframe');f.src=mapa.dataset.src;f.title='Mapa dojazdu do domów z bali w Skrzętli';f.loading='lazy';f.referrerPolicy='no-referrer-when-downgrade';mapa.appendChild(f);o.disconnect()}},{rootMargin:'300px'}).observe(mapa);
+
+  document.getElementById('formularz').addEventListener('submit',function(e){e.preventDefault();document.getElementById('info-form').style.display='block'});
+})();
+</script>
+</body>
+</html>
